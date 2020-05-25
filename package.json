@@ -1,0 +1,26 @@
+{
+  "name": "less-loader-watch-issue",
+  "version": "1.0.0",
+  "description": "LESS doesn't update output file in webpack watch mode",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --mode=development --watch",
+    "webpack": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "cross-env": "^7.0.2",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^6.0.0",
+    "less-loader": "^6.1.0",
+    "mini-css-extract-plugin": "^0.1.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^4.0.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  },
+  "dependencies": {}
+}
